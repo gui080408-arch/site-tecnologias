@@ -5,6 +5,12 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
+    text-align: center
+    ;
+
+}
+body{
+  background-color: rgb(103, 73, 158) ;
 }
 #Imagem{
 height: 250px;
@@ -15,6 +21,23 @@ h1,h2{
     font-family: "Edu NSW ACT Cursive", cursive;
   font-optical-sizing: auto;
   color: rgb(255, 0, 0);
+ 
+}
+
+div.imagem{
+  width: 100%;
+  align-items: center;
+}
+
+#JS{
+height: 250px;
+width: 500px;
+justify-self: center;
+}
+
+.Título{
+  text-align: left;
+ box-sizing: content-box;
  
 }
 
